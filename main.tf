@@ -17,7 +17,7 @@ provider "aws" {
 resource "aws_s3_bucket" "example" {
   bucket = "ridwan-repro-bucket"
   tags = {
-    Name = "test"
+    env = "test"
   }
 }
 resource "aws_s3_bucket_public_access_block" "example" {
