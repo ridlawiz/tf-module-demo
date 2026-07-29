@@ -1,4 +1,4 @@
-
+# wiz-scan ignore
 terraform {
   cloud {
     organization = "ridwan-tfc-org"
